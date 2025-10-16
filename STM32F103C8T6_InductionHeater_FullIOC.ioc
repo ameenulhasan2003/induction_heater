@@ -1,0 +1,13 @@
+# STM32CubeMX .ioc file (informational). Re-open in STM32CubeIDE and press "Generate Code" to create HAL files.
+# MCU: STM32F103C8Tx (Blue Pill)
+# Peripheral pin mapping:
+#   TIM1_CH1    -> PA8 (PWM)
+#   ADC1_IN0    -> PA0 (LM35)
+#   ADC1_IN1    -> PA1 (ACS712)
+#   GPIO PC0    -> MODE_LOW (input)
+#   GPIO PC1    -> MODE_MED  (input)
+#   GPIO PC2    -> MODE_HIGH (input)
+#   GPIO PC3    -> ESTOP     (input, pull-up, active low)
+# Timer settings for TIM1: PWM CH1, Prescaler 0, ARR configured at runtime
+# ADC: ADC1 with single conversions, software-triggered
+# Note: After opening this .ioc in STM32CubeIDE, click "Project" -> "Generate Code" to regenerate MX_*.c/.h files automatically.
